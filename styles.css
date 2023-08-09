@@ -1,0 +1,77 @@
+form{
+    left: 50%;
+    top: 30%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+#box{
+    height:50%;
+    font-size:150%;
+}
+
+html{
+    /* background-color: #4D4D4D; */
+    background-image:url(./pattern1-1.png) ;
+    font-family: monospace;
+}
+
+h2{
+    left: 50%;
+    top: 15%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    color: #DAFFFB;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#resetButton{
+    color: black;
+    border: none;
+    border-radius: 5px;
+    padding: 2% 2%;
+    cursor: pointer;
+    font-size: 125%;
+    width: 48.5%;
+}
+
+#submitButton{
+    background-color: #176B87;
+    /* background-color: #068FFF; */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 2% 2%;
+    cursor: pointer;
+    font-size: 125%;
+    width: 48.5%;
+}
+
+#clear{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    color: #DAFFFB;
+    font-size: 80%;
+}
+
+#msg{
+    left: 50%;
+    top: 40%;
+    width: max-content;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    color: #64CCC5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#suggestion{
+    left: 50%;
+    top: 45%;
+    width: max-content;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    color: #64CCC5;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
